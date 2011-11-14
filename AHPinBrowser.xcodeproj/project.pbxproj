@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3EC635F146B4DB30061C7CA /* BrowserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3EC635D146B4DB30061C7CA /* BrowserView.xib */; };
+		FB9BA0C21469AFFD00BB92F4 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9BA0C11469AFFD00BB92F4 /* BrowserViewController.m */; };
+		FB9BA0C61469B02400BB92F4 /* PinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9BA0C41469B02400BB92F4 /* PinViewController.m */; };
+		FB9BA0C71469B02400BB92F4 /* PinView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB9BA0C51469B02400BB92F4 /* PinView.xib */; };
+		FB9BA0CB1469B05900BB92F4 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9BA0C91469B05900BB92F4 /* ListViewController.m */; };
+		FB9BA0CC1469B05900BB92F4 /* ListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB9BA0CA1469B05900BB92F4 /* ListView.xib */; };
+		FB9BA0D01469B08400BB92F4 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9BA0CE1469B08400BB92F4 /* EditViewController.m */; };
+		FB9BA0D11469B08400BB92F4 /* EditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB9BA0CF1469B08400BB92F4 /* EditView.xib */; };
+		FB9BA0D41469B19900BB92F4 /* PinBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9BA0D31469B19900BB92F4 /* PinBrowser.m */; };
+		FB9F4A761469AD8D007B5E70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9F4A751469AD8D007B5E70 /* UIKit.framework */; };
+		FB9F4A781469AD8D007B5E70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9F4A771469AD8D007B5E70 /* Foundation.framework */; };
+		FB9F4A7A1469AD8D007B5E70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9F4A791469AD8D007B5E70 /* CoreGraphics.framework */; };
+		FB9F4A801469AD8D007B5E70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB9F4A7E1469AD8D007B5E70 /* InfoPlist.strings */; };
+		FB9F4A831469AD8D007B5E70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9F4A821469AD8D007B5E70 /* main.m */; };
+		FB9F4A861469AD8D007B5E70 /* Pin_BrowserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9F4A851469AD8D007B5E70 /* Pin_BrowserAppDelegate.m */; };
+		FB9F4A891469AD8D007B5E70 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB9F4A871469AD8D007B5E70 /* MainWindow.xib */; };
+		FB9F4A8C1469AD8D007B5E70 /* Pin_BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9F4A8B1469AD8D007B5E70 /* Pin_BrowserViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B3EC635D146B4DB30061C7CA /* BrowserView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrowserView.xib; sourceTree = "<group>"; };
+		FB9BA0C01469AFFD00BB92F4 /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
+		FB9BA0C11469AFFD00BB92F4 /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
+		FB9BA0C31469B02400BB92F4 /* PinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PinViewController.h; path = "Pin Browser.xcodeproj/PinViewController.h"; sourceTree = SOURCE_ROOT; };
+		FB9BA0C41469B02400BB92F4 /* PinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PinViewController.m; path = "Pin Browser.xcodeproj/PinViewController.m"; sourceTree = SOURCE_ROOT; };
+		FB9BA0C51469B02400BB92F4 /* PinView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PinView.xib; path = "Pin Browser.xcodeproj/PinView.xib"; sourceTree = SOURCE_ROOT; };
+		FB9BA0C81469B05900BB92F4 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListViewController.h; path = "Pin Browser.xcodeproj/ListViewController.h"; sourceTree = SOURCE_ROOT; };
+		FB9BA0C91469B05900BB92F4 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListViewController.m; path = "Pin Browser.xcodeproj/ListViewController.m"; sourceTree = SOURCE_ROOT; };
+		FB9BA0CA1469B05900BB92F4 /* ListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ListView.xib; path = "Pin Browser.xcodeproj/ListView.xib"; sourceTree = SOURCE_ROOT; };
+		FB9BA0CD1469B08400BB92F4 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditViewController.h; path = "Pin Browser.xcodeproj/EditViewController.h"; sourceTree = SOURCE_ROOT; };
+		FB9BA0CE1469B08400BB92F4 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditViewController.m; path = "Pin Browser.xcodeproj/EditViewController.m"; sourceTree = SOURCE_ROOT; };
+		FB9BA0CF1469B08400BB92F4 /* EditView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EditView.xib; path = "Pin Browser.xcodeproj/EditView.xib"; sourceTree = SOURCE_ROOT; };
+		FB9BA0D21469B19900BB92F4 /* PinBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PinBrowser.h; path = "Pin Browser.xcodeproj/PinBrowser.h"; sourceTree = SOURCE_ROOT; };
+		FB9BA0D31469B19900BB92F4 /* PinBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PinBrowser.m; path = "Pin Browser.xcodeproj/PinBrowser.m"; sourceTree = SOURCE_ROOT; };
+		FB9F4A711469AD8D007B5E70 /* AHPinBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHPinBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9F4A751469AD8D007B5E70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FB9F4A771469AD8D007B5E70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB9F4A791469AD8D007B5E70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FB9F4A7D1469AD8D007B5E70 /* AHPinBrowser-Info.plist */ = {isa = PBXFileReference; path = "AHPinBrowser-Info.plist"; sourceTree = "<group>"; };
+		FB9F4A7F1469AD8D007B5E70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB9F4A811469AD8D007B5E70 /* AHPinBrowser-Prefix.pch */ = {isa = PBXFileReference; path = "AHPinBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		FB9F4A821469AD8D007B5E70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB9F4A841469AD8D007B5E70 /* Pin_BrowserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pin_BrowserAppDelegate.h; sourceTree = "<group>"; };
+		FB9F4A851469AD8D007B5E70 /* Pin_BrowserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pin_BrowserAppDelegate.m; sourceTree = "<group>"; };
+		FB9F4A881469AD8D007B5E70 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		FB9F4A8A1469AD8D007B5E70 /* Pin_BrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pin_BrowserViewController.h; sourceTree = "<group>"; };
+		FB9F4A8B1469AD8D007B5E70 /* Pin_BrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pin_BrowserViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB9F4A6E1469AD8D007B5E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9F4A761469AD8D007B5E70 /* UIKit.framework in Frameworks */,
+				FB9F4A781469AD8D007B5E70 /* Foundation.framework in Frameworks */,
+				FB9F4A7A1469AD8D007B5E70 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB9BA0BE1469AFAB00BB92F4 /* Controller Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB9BA0C31469B02400BB92F4 /* PinViewController.h */,
+				FB9BA0C41469B02400BB92F4 /* PinViewController.m */,
+				FB9BA0C01469AFFD00BB92F4 /* BrowserViewController.h */,
+				FB9BA0C11469AFFD00BB92F4 /* BrowserViewController.m */,
+				FB9BA0C81469B05900BB92F4 /* ListViewController.h */,
+				FB9BA0C91469B05900BB92F4 /* ListViewController.m */,
+				FB9BA0CD1469B08400BB92F4 /* EditViewController.h */,
+				FB9BA0CE1469B08400BB92F4 /* EditViewController.m */,
+				FB9F4A8A1469AD8D007B5E70 /* Pin_BrowserViewController.h */,
+				FB9F4A8B1469AD8D007B5E70 /* Pin_BrowserViewController.m */,
+			);
+			name = "Controller Files";
+			sourceTree = "<group>";
+		};
+		FB9BA0BF1469AFBE00BB92F4 /* View Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB9BA0CF1469B08400BB92F4 /* EditView.xib */,
+				B3EC635D146B4DB30061C7CA /* BrowserView.xib */,
+				FB9BA0CA1469B05900BB92F4 /* ListView.xib */,
+				FB9BA0C51469B02400BB92F4 /* PinView.xib */,
+				FB9F4A871469AD8D007B5E70 /* MainWindow.xib */,
+			);
+			name = "View Files";
+			sourceTree = "<group>";
+		};
+		FB9BA0D51469B1F500BB92F4 /* Model Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB9BA0D21469B19900BB92F4 /* PinBrowser.h */,
+				FB9BA0D31469B19900BB92F4 /* PinBrowser.m */,
+			);
+			name = "Model Files";
+			sourceTree = "<group>";
+		};
+		FB9F4A661469AD8C007B5E70 = {
+			isa = PBXGroup;
+			children = (
+				FB9F4A7B1469AD8D007B5E70 /* Pin Browser */,
+				FB9F4A741469AD8D007B5E70 /* Frameworks */,
+				FB9F4A721469AD8D007B5E70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB9F4A721469AD8D007B5E70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB9F4A711469AD8D007B5E70 /* AHPinBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB9F4A741469AD8D007B5E70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB9F4A751469AD8D007B5E70 /* UIKit.framework */,
+				FB9F4A771469AD8D007B5E70 /* Foundation.framework */,
+				FB9F4A791469AD8D007B5E70 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB9F4A7B1469AD8D007B5E70 /* Pin Browser */ = {
+			isa = PBXGroup;
+			children = (
+				FB9BA0D51469B1F500BB92F4 /* Model Files */,
+				FB9BA0BF1469AFBE00BB92F4 /* View Files */,
+				FB9BA0BE1469AFAB00BB92F4 /* Controller Files */,
+				FB9F4A841469AD8D007B5E70 /* Pin_BrowserAppDelegate.h */,
+				FB9F4A851469AD8D007B5E70 /* Pin_BrowserAppDelegate.m */,
+				FB9F4A7C1469AD8D007B5E70 /* Supporting Files */,
+			);
+			path = "Pin Browser";
+			sourceTree = "<group>";
+		};
+		FB9F4A7C1469AD8D007B5E70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB9F4A7D1469AD8D007B5E70 /* AHPinBrowser-Info.plist */,
+				FB9F4A7E1469AD8D007B5E70 /* InfoPlist.strings */,
+				FB9F4A811469AD8D007B5E70 /* AHPinBrowser-Prefix.pch */,
+				FB9F4A821469AD8D007B5E70 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB9F4A701469AD8D007B5E70 /* AHPinBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9F4A921469AD8D007B5E70 /* Build configuration list for PBXNativeTarget "AHPinBrowser" */;
+			buildPhases = (
+				FB9F4A6D1469AD8D007B5E70 /* Sources */,
+				FB9F4A6E1469AD8D007B5E70 /* Frameworks */,
+				FB9F4A6F1469AD8D007B5E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHPinBrowser;
+			productName = "Pin Browser";
+			productReference = FB9F4A711469AD8D007B5E70 /* AHPinBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB9F4A681469AD8C007B5E70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FB9F4A6B1469AD8C007B5E70 /* Build configuration list for PBXProject "AHPinBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB9F4A661469AD8C007B5E70;
+			productRefGroup = FB9F4A721469AD8D007B5E70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB9F4A701469AD8D007B5E70 /* AHPinBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB9F4A6F1469AD8D007B5E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9F4A801469AD8D007B5E70 /* InfoPlist.strings in Resources */,
+				FB9F4A891469AD8D007B5E70 /* MainWindow.xib in Resources */,
+				FB9BA0C71469B02400BB92F4 /* PinView.xib in Resources */,
+				FB9BA0CC1469B05900BB92F4 /* ListView.xib in Resources */,
+				FB9BA0D11469B08400BB92F4 /* EditView.xib in Resources */,
+				B3EC635F146B4DB30061C7CA /* BrowserView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB9F4A6D1469AD8D007B5E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9F4A831469AD8D007B5E70 /* main.m in Sources */,
+				FB9F4A861469AD8D007B5E70 /* Pin_BrowserAppDelegate.m in Sources */,
+				FB9F4A8C1469AD8D007B5E70 /* Pin_BrowserViewController.m in Sources */,
+				FB9BA0C21469AFFD00BB92F4 /* BrowserViewController.m in Sources */,
+				FB9BA0C61469B02400BB92F4 /* PinViewController.m in Sources */,
+				FB9BA0CB1469B05900BB92F4 /* ListViewController.m in Sources */,
+				FB9BA0D01469B08400BB92F4 /* EditViewController.m in Sources */,
+				FB9BA0D41469B19900BB92F4 /* PinBrowser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB9F4A7E1469AD8D007B5E70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB9F4A7F1469AD8D007B5E70 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FB9F4A871469AD8D007B5E70 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB9F4A881469AD8D007B5E70 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB9F4A901469AD8D007B5E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FB9F4A911469AD8D007B5E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		FB9F4A931469AD8D007B5E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pin Browser/AHPinBrowser-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Pin Browser/AHPinBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = AHPinBrowser;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FB9F4A941469AD8D007B5E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pin Browser/AHPinBrowser-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Pin Browser/AHPinBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = AHPinBrowser;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB9F4A6B1469AD8C007B5E70 /* Build configuration list for PBXProject "AHPinBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9F4A901469AD8D007B5E70 /* Debug */,
+				FB9F4A911469AD8D007B5E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB9F4A921469AD8D007B5E70 /* Build configuration list for PBXNativeTarget "AHPinBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9F4A931469AD8D007B5E70 /* Debug */,
+				FB9F4A941469AD8D007B5E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB9F4A681469AD8C007B5E70 /* Project object */;
+}
