@@ -45,6 +45,8 @@
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
+
+//Adds Pin and URL to PinBrowser, clears view and resigns first responder
 -(BOOL)textFieldShouldReturn:(UITextField *)txtField{
     
     [txtField resignFirstResponder];

@@ -38,6 +38,7 @@
     // Do any additional setup after loading the view from its nib.
 }
 
+//Upon View Appear Populate list with contents of Pin Browser Dictionary
 - (void) viewDidAppear:(BOOL)animated {
     
     int i = 0;
