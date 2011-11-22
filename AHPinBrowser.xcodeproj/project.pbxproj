@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B34D1813147B1BEE00588434 /* PinBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = B34D1812147B1BEE00588434 /* PinBrowser.m */; };
 		B3EC635F146B4DB30061C7CA /* BrowserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3EC635D146B4DB30061C7CA /* BrowserView.xib */; };
 		FB9BA0C21469AFFD00BB92F4 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9BA0C11469AFFD00BB92F4 /* BrowserViewController.m */; };
 		FB9BA0C61469B02400BB92F4 /* PinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9BA0C41469B02400BB92F4 /* PinViewController.m */; };
@@ -15,7 +16,6 @@
 		FB9BA0CC1469B05900BB92F4 /* ListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB9BA0CA1469B05900BB92F4 /* ListView.xib */; };
 		FB9BA0D01469B08400BB92F4 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9BA0CE1469B08400BB92F4 /* EditViewController.m */; };
 		FB9BA0D11469B08400BB92F4 /* EditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB9BA0CF1469B08400BB92F4 /* EditView.xib */; };
-		FB9BA0D41469B19900BB92F4 /* PinBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9BA0D31469B19900BB92F4 /* PinBrowser.m */; };
 		FB9F4A761469AD8D007B5E70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9F4A751469AD8D007B5E70 /* UIKit.framework */; };
 		FB9F4A781469AD8D007B5E70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9F4A771469AD8D007B5E70 /* Foundation.framework */; };
 		FB9F4A7A1469AD8D007B5E70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9F4A791469AD8D007B5E70 /* CoreGraphics.framework */; };
@@ -27,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B34D1811147B1BEE00588434 /* PinBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinBrowser.h; sourceTree = "<group>"; };
+		B34D1812147B1BEE00588434 /* PinBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinBrowser.m; sourceTree = "<group>"; };
 		B3EC635D146B4DB30061C7CA /* BrowserView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrowserView.xib; sourceTree = "<group>"; };
 		FB9BA0C01469AFFD00BB92F4 /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
 		FB9BA0C11469AFFD00BB92F4 /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
@@ -39,15 +41,13 @@
 		FB9BA0CD1469B08400BB92F4 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditViewController.h; path = "Pin Browser.xcodeproj/EditViewController.h"; sourceTree = SOURCE_ROOT; };
 		FB9BA0CE1469B08400BB92F4 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditViewController.m; path = "Pin Browser.xcodeproj/EditViewController.m"; sourceTree = SOURCE_ROOT; };
 		FB9BA0CF1469B08400BB92F4 /* EditView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EditView.xib; path = "Pin Browser.xcodeproj/EditView.xib"; sourceTree = SOURCE_ROOT; };
-		FB9BA0D21469B19900BB92F4 /* PinBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PinBrowser.h; path = "Pin Browser.xcodeproj/PinBrowser.h"; sourceTree = SOURCE_ROOT; };
-		FB9BA0D31469B19900BB92F4 /* PinBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PinBrowser.m; path = "Pin Browser.xcodeproj/PinBrowser.m"; sourceTree = SOURCE_ROOT; };
 		FB9F4A711469AD8D007B5E70 /* AHPinBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHPinBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB9F4A751469AD8D007B5E70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FB9F4A771469AD8D007B5E70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FB9F4A791469AD8D007B5E70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FB9F4A7D1469AD8D007B5E70 /* AHPinBrowser-Info.plist */ = {isa = PBXFileReference; path = "AHPinBrowser-Info.plist"; sourceTree = "<group>"; };
+		FB9F4A7D1469AD8D007B5E70 /* AHPinBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AHPinBrowser-Info.plist"; sourceTree = "<group>"; };
 		FB9F4A7F1469AD8D007B5E70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FB9F4A811469AD8D007B5E70 /* AHPinBrowser-Prefix.pch */ = {isa = PBXFileReference; path = "AHPinBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		FB9F4A811469AD8D007B5E70 /* AHPinBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AHPinBrowser-Prefix.pch"; sourceTree = "<group>"; };
 		FB9F4A821469AD8D007B5E70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FB9F4A841469AD8D007B5E70 /* Pin_BrowserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pin_BrowserAppDelegate.h; sourceTree = "<group>"; };
 		FB9F4A851469AD8D007B5E70 /* Pin_BrowserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pin_BrowserAppDelegate.m; sourceTree = "<group>"; };
@@ -102,8 +102,8 @@
 		FB9BA0D51469B1F500BB92F4 /* Model Files */ = {
 			isa = PBXGroup;
 			children = (
-				FB9BA0D21469B19900BB92F4 /* PinBrowser.h */,
-				FB9BA0D31469B19900BB92F4 /* PinBrowser.m */,
+				B34D1811147B1BEE00588434 /* PinBrowser.h */,
+				B34D1812147B1BEE00588434 /* PinBrowser.m */,
 			);
 			name = "Model Files";
 			sourceTree = "<group>";
@@ -232,7 +232,7 @@
 				FB9BA0C61469B02400BB92F4 /* PinViewController.m in Sources */,
 				FB9BA0CB1469B05900BB92F4 /* ListViewController.m in Sources */,
 				FB9BA0D01469B08400BB92F4 /* EditViewController.m in Sources */,
-				FB9BA0D41469B19900BB92F4 /* PinBrowser.m in Sources */,
+				B34D1813147B1BEE00588434 /* PinBrowser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
