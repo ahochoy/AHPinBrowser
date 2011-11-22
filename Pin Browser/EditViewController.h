@@ -11,8 +11,9 @@
 #import "PinViewController.h"
 
 
-@interface EditViewController : PinViewController
+@interface EditViewController : PinViewController <UITextFieldDelegate>
 
 @property (nonatomic, retain) PinBrowser *myPinBrowser;
+@property (retain, nonatomic) IBOutlet UITextField *textFeild;
 
 @end

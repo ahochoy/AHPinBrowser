@@ -20,7 +20,7 @@
         
         self.pinDictionary = [[NSMutableDictionary  alloc] initWithObjectsAndKeys: 
                               [NSURL URLWithString:@"http://www.google.com"], @"1234",
-                              [NSURL URLWithString:@"http://www.apple.com"], @"1986",
+                              [NSURL URLWithString:@"http://www.apple.com"], @"1984",
                               [NSURL URLWithString:@"http://www.fiu.edu"], @"1965", 
                               nil];
     }

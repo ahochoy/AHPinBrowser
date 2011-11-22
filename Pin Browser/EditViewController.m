@@ -11,6 +11,7 @@
 @implementation EditViewController 
 
 @synthesize myPinBrowser;
+@synthesize textFeild;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -39,9 +40,29 @@
 
 - (void)viewDidUnload
 {
+    [self setTextFeild:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+}
+-(BOOL)textFieldShouldReturn:(UITextField *)txtField{
+    
+    [txtField resignFirstResponder];
+    
+    NSString *pinString = [pin componentsJoinedByString:@""];
+    NSURL *url = [NSURL URLWithString: self.textFeild.text];
+    
+    [myPinBrowser addPin:pinString andURL:url];
+    
+    for (UILabel *lbl in super.pinDisplay) {
+        lbl.text = nil;
+    }
+    
+    textFeild.text = nil;
+    
+    [pin removeAllObjects];
+    
+    return YES;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -50,4 +71,8 @@
 	return YES;
 }
 
+- (void)dealloc {
+    [textFeild release];
+    [super dealloc];
+}
 @end
