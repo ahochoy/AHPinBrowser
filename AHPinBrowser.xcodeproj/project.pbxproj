@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		B34D1813147B1BEE00588434 /* PinBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = B34D1812147B1BEE00588434 /* PinBrowser.m */; };
+		B34D181A147B210400588434 /* PinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B34D1818147B210400588434 /* PinViewController.m */; };
+		B34D181B147B210400588434 /* PinView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B34D1819147B210400588434 /* PinView.xib */; };
+		B34D1823147B2FD100588434 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B34D1821147B2FD100588434 /* ListViewController.m */; };
+		B34D1824147B2FD100588434 /* ListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B34D1822147B2FD100588434 /* ListView.xib */; };
+		B34D1828147B33AB00588434 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B34D1826147B33AB00588434 /* EditViewController.m */; };
+		B34D1829147B33AB00588434 /* EditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B34D1827147B33AB00588434 /* EditView.xib */; };
 		B3EC635F146B4DB30061C7CA /* BrowserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3EC635D146B4DB30061C7CA /* BrowserView.xib */; };
 		FB9BA0C21469AFFD00BB92F4 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9BA0C11469AFFD00BB92F4 /* BrowserViewController.m */; };
-		FB9BA0C61469B02400BB92F4 /* PinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9BA0C41469B02400BB92F4 /* PinViewController.m */; };
-		FB9BA0C71469B02400BB92F4 /* PinView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB9BA0C51469B02400BB92F4 /* PinView.xib */; };
-		FB9BA0CB1469B05900BB92F4 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9BA0C91469B05900BB92F4 /* ListViewController.m */; };
-		FB9BA0CC1469B05900BB92F4 /* ListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB9BA0CA1469B05900BB92F4 /* ListView.xib */; };
-		FB9BA0D01469B08400BB92F4 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9BA0CE1469B08400BB92F4 /* EditViewController.m */; };
-		FB9BA0D11469B08400BB92F4 /* EditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB9BA0CF1469B08400BB92F4 /* EditView.xib */; };
 		FB9F4A761469AD8D007B5E70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9F4A751469AD8D007B5E70 /* UIKit.framework */; };
 		FB9F4A781469AD8D007B5E70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9F4A771469AD8D007B5E70 /* Foundation.framework */; };
 		FB9F4A7A1469AD8D007B5E70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9F4A791469AD8D007B5E70 /* CoreGraphics.framework */; };
@@ -29,18 +29,18 @@
 /* Begin PBXFileReference section */
 		B34D1811147B1BEE00588434 /* PinBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinBrowser.h; sourceTree = "<group>"; };
 		B34D1812147B1BEE00588434 /* PinBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinBrowser.m; sourceTree = "<group>"; };
+		B34D1817147B210400588434 /* PinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinViewController.h; sourceTree = "<group>"; };
+		B34D1818147B210400588434 /* PinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinViewController.m; sourceTree = "<group>"; };
+		B34D1819147B210400588434 /* PinView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PinView.xib; sourceTree = "<group>"; };
+		B34D1820147B2FD100588434 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		B34D1821147B2FD100588434 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		B34D1822147B2FD100588434 /* ListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListView.xib; sourceTree = "<group>"; };
+		B34D1825147B33AB00588434 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		B34D1826147B33AB00588434 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		B34D1827147B33AB00588434 /* EditView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditView.xib; sourceTree = "<group>"; };
 		B3EC635D146B4DB30061C7CA /* BrowserView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrowserView.xib; sourceTree = "<group>"; };
 		FB9BA0C01469AFFD00BB92F4 /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
 		FB9BA0C11469AFFD00BB92F4 /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
-		FB9BA0C31469B02400BB92F4 /* PinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PinViewController.h; path = "Pin Browser.xcodeproj/PinViewController.h"; sourceTree = SOURCE_ROOT; };
-		FB9BA0C41469B02400BB92F4 /* PinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PinViewController.m; path = "Pin Browser.xcodeproj/PinViewController.m"; sourceTree = SOURCE_ROOT; };
-		FB9BA0C51469B02400BB92F4 /* PinView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PinView.xib; path = "Pin Browser.xcodeproj/PinView.xib"; sourceTree = SOURCE_ROOT; };
-		FB9BA0C81469B05900BB92F4 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListViewController.h; path = "Pin Browser.xcodeproj/ListViewController.h"; sourceTree = SOURCE_ROOT; };
-		FB9BA0C91469B05900BB92F4 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListViewController.m; path = "Pin Browser.xcodeproj/ListViewController.m"; sourceTree = SOURCE_ROOT; };
-		FB9BA0CA1469B05900BB92F4 /* ListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ListView.xib; path = "Pin Browser.xcodeproj/ListView.xib"; sourceTree = SOURCE_ROOT; };
-		FB9BA0CD1469B08400BB92F4 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditViewController.h; path = "Pin Browser.xcodeproj/EditViewController.h"; sourceTree = SOURCE_ROOT; };
-		FB9BA0CE1469B08400BB92F4 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditViewController.m; path = "Pin Browser.xcodeproj/EditViewController.m"; sourceTree = SOURCE_ROOT; };
-		FB9BA0CF1469B08400BB92F4 /* EditView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EditView.xib; path = "Pin Browser.xcodeproj/EditView.xib"; sourceTree = SOURCE_ROOT; };
 		FB9F4A711469AD8D007B5E70 /* AHPinBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHPinBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB9F4A751469AD8D007B5E70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FB9F4A771469AD8D007B5E70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -73,14 +73,14 @@
 		FB9BA0BE1469AFAB00BB92F4 /* Controller Files */ = {
 			isa = PBXGroup;
 			children = (
-				FB9BA0C31469B02400BB92F4 /* PinViewController.h */,
-				FB9BA0C41469B02400BB92F4 /* PinViewController.m */,
+				B34D1817147B210400588434 /* PinViewController.h */,
+				B34D1818147B210400588434 /* PinViewController.m */,
 				FB9BA0C01469AFFD00BB92F4 /* BrowserViewController.h */,
 				FB9BA0C11469AFFD00BB92F4 /* BrowserViewController.m */,
-				FB9BA0C81469B05900BB92F4 /* ListViewController.h */,
-				FB9BA0C91469B05900BB92F4 /* ListViewController.m */,
-				FB9BA0CD1469B08400BB92F4 /* EditViewController.h */,
-				FB9BA0CE1469B08400BB92F4 /* EditViewController.m */,
+				B34D1820147B2FD100588434 /* ListViewController.h */,
+				B34D1821147B2FD100588434 /* ListViewController.m */,
+				B34D1825147B33AB00588434 /* EditViewController.h */,
+				B34D1826147B33AB00588434 /* EditViewController.m */,
 				FB9F4A8A1469AD8D007B5E70 /* Pin_BrowserViewController.h */,
 				FB9F4A8B1469AD8D007B5E70 /* Pin_BrowserViewController.m */,
 			);
@@ -90,10 +90,10 @@
 		FB9BA0BF1469AFBE00BB92F4 /* View Files */ = {
 			isa = PBXGroup;
 			children = (
-				FB9BA0CF1469B08400BB92F4 /* EditView.xib */,
+				B34D1827147B33AB00588434 /* EditView.xib */,
+				B34D1822147B2FD100588434 /* ListView.xib */,
 				B3EC635D146B4DB30061C7CA /* BrowserView.xib */,
-				FB9BA0CA1469B05900BB92F4 /* ListView.xib */,
-				FB9BA0C51469B02400BB92F4 /* PinView.xib */,
+				B34D1819147B210400588434 /* PinView.xib */,
 				FB9F4A871469AD8D007B5E70 /* MainWindow.xib */,
 			);
 			name = "View Files";
@@ -211,10 +211,10 @@
 			files = (
 				FB9F4A801469AD8D007B5E70 /* InfoPlist.strings in Resources */,
 				FB9F4A891469AD8D007B5E70 /* MainWindow.xib in Resources */,
-				FB9BA0C71469B02400BB92F4 /* PinView.xib in Resources */,
-				FB9BA0CC1469B05900BB92F4 /* ListView.xib in Resources */,
-				FB9BA0D11469B08400BB92F4 /* EditView.xib in Resources */,
 				B3EC635F146B4DB30061C7CA /* BrowserView.xib in Resources */,
+				B34D181B147B210400588434 /* PinView.xib in Resources */,
+				B34D1824147B2FD100588434 /* ListView.xib in Resources */,
+				B34D1829147B33AB00588434 /* EditView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,10 +229,10 @@
 				FB9F4A861469AD8D007B5E70 /* Pin_BrowserAppDelegate.m in Sources */,
 				FB9F4A8C1469AD8D007B5E70 /* Pin_BrowserViewController.m in Sources */,
 				FB9BA0C21469AFFD00BB92F4 /* BrowserViewController.m in Sources */,
-				FB9BA0C61469B02400BB92F4 /* PinViewController.m in Sources */,
-				FB9BA0CB1469B05900BB92F4 /* ListViewController.m in Sources */,
-				FB9BA0D01469B08400BB92F4 /* EditViewController.m in Sources */,
 				B34D1813147B1BEE00588434 /* PinBrowser.m in Sources */,
+				B34D181A147B210400588434 /* PinViewController.m in Sources */,
+				B34D1823147B2FD100588434 /* ListViewController.m in Sources */,
+				B34D1828147B33AB00588434 /* EditViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

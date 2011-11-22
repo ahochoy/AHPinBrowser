@@ -116,7 +116,7 @@
         [editViewController.view removeFromSuperview];
         [[self.view.superview viewWithTag:20] removeFromSuperview];
         [self.view insertSubview:browserViewController.view atIndex:0];
-        [browserViewController viewDidAppear:NO];
+        [browserViewController viewDidAppear:YES];
     }
 }
     // Lazy load List View, clears other views from superView
