@@ -19,7 +19,6 @@
     BrowserViewController *browserViewController;
     ListViewController *listViewController;
     EditViewController *editViewController;
-    
     PinBrowser *myPinBrowser;
     
 }

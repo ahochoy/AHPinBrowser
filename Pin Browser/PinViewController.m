@@ -16,7 +16,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        pin = [NSMutableArray arrayWithCapacity:4];
+        self.pin = [[NSMutableArray alloc] init];
     }
     return self;
 }
@@ -34,6 +34,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    for (UILabel *lbl in pinDisplay) {
+        lbl.text = nil;
+    }
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -43,15 +46,6 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
-}
-
--(void)viewDidAppear:(BOOL)animated{
-    
-    for (UILabel *lbl in pinDisplay) {
-        lbl.text = nil;
-    }
-    
-    [super viewDidAppear: animated];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -72,9 +66,12 @@
     if([pin count] < 5){
         [pin addObject: [NSNumber numberWithInt:[sender tag]]];
     
+        NSLog(@"Object Added: %@", [NSNumber numberWithInt:[sender tag]]);
+        
         for (UILabel *lbl in pinDisplay) {
             if (lbl.tag == [pin count]) {
-                lbl.text = [pin objectAtIndex:[pin count]];
+                NSLog(@"PIN COUNT: %d", [pin count]);
+                lbl.text = [NSString stringWithFormat:@"%@", [pin objectAtIndex: ([pin count]-1)]];
             }
         }    
     }
@@ -88,6 +85,7 @@
     if ([myPinBrowser isValidPin: pinString]) {
         
         NSURL *pinSite = [myPinBrowser URLforPin:pinString];
+        NSLog(@"From Press Go - URL: %@", pinSite);
         
         if (self.bvController == nil)
         {
@@ -98,10 +96,10 @@
             [browserController release];
         }
         
-        self.bvController.site = pinSite;
+        bvController.site = pinSite;
         
+        [self.view.superview insertSubview:self.bvController.view atIndex:0];
         [self.view removeFromSuperview];
-        [self.view.superview insertSubview:bvController.view atIndex:0];
         [bvController viewDidAppear:YES];
         
     } else {

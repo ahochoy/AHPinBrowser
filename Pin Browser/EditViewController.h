@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "PinBrowser.h"
+#import "PinViewController.h"
 
 
-@interface EditViewController : UIViewController
+@interface EditViewController : PinViewController
+
 @property (nonatomic, retain) PinBrowser *myPinBrowser;
 
 @end

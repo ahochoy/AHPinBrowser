@@ -39,9 +39,11 @@
 				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 			</object>
 			<object class="IBUIWindow" id="62075450">
-				<nil key="NSNextResponder"/>
+				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">292</int>
 				<string key="NSFrameSize">{768, 1024}</string>
+				<reference key="NSSuperview"/>
+				<reference key="NSNextKeyView"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">1</int>
 					<bytes key="NSRGB">MSAxIDEAA</bytes>
@@ -69,6 +71,7 @@
 							<string key="NSFrame">{{0, 960}, {768, 44}}</string>
 							<reference key="NSSuperview" ref="212962691"/>
 							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView"/>
 							<bool key="IBUIOpaque">NO</bool>
 							<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 							<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -114,7 +117,7 @@
 					</object>
 					<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 				</object>
-				<string key="IBUINibName">Pin_BrowserViewController</string>
+				<string key="IBUINibName">Pin_BrowserView</string>
 				<reference key="IBUISimulatedStatusBarMetrics" ref="456458906"/>
 				<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 					<int key="IBUIInterfaceOrientation">1</int>

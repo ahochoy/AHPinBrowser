@@ -42,8 +42,17 @@
     
     int i = 0;
     
+    for (UILabel *lbl in pinList) {
+        if(i < [myPinBrowser pinCount]){
+            
+            lbl.text = [NSString stringWithFormat:@"Pin: %@  -  URL: %@",[myPinBrowser pinAtIndex:i], [myPinBrowser URLatIndex:i]];
+            
+        } else {
+            lbl.text = nil;
+        }
     
-    
+        i++;
+    }
     
     [super viewDidAppear: animated];
 }

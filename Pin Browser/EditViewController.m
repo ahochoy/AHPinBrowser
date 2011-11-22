@@ -8,7 +8,7 @@
 
 #import "EditViewController.h"
 
-@implementation EditViewController
+@implementation EditViewController 
 
 @synthesize myPinBrowser;
 

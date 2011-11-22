@@ -19,5 +19,8 @@
 -(BOOL)isValidPin:(NSString *)pin;
 -(NSURL *)URLforPin:(NSString *)pin;
 -(void)addPin:(NSString *)pin andURL:(NSURL *)url;
+-(NSInteger) pinCount;
+-(NSString *)pinAtIndex:(NSInteger)idx;
+-(NSURL *)URLatIndex:(NSInteger)idx;
 
 @end

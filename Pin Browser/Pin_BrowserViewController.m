@@ -43,8 +43,8 @@
 // Upon load initiate Pin View and pass pinBrowser property to subview
 - (void)viewDidLoad
 {
-    PinViewController *pinController = [[PinViewController alloc]
-										  initWithNibName:@"PinView" bundle:nil];
+    PinViewController *pinController = [[PinViewController alloc] initWithNibName:@"PinView" 
+                                                                           bundle:nil];
     
     myPinBrowser = [[PinBrowser alloc] init];
     pinController.myPinBrowser = myPinBrowser;
@@ -81,7 +81,7 @@
         {
             PinViewController *pinController =
             [[PinViewController alloc] initWithNibName:@"PinView"
-                                                   bundle:nil];
+                                                bundle:nil];
             self.pinViewController = pinController;
             [pinController release];
             
@@ -105,7 +105,7 @@
         {
             BrowserViewController *browserController =
             [[BrowserViewController alloc] initWithNibName:@"BrowserView"
-                                                bundle:nil];
+                                                    bundle:nil];
             self.browserViewController = browserController;
             [browserController release];
             
@@ -128,7 +128,7 @@
         {
             ListViewController *listController =
             [[ListViewController alloc] initWithNibName:@"ListView"
-                                                bundle:nil];
+                                                 bundle:nil];
             
             listController.myPinBrowser = myPinBrowser;
             self.listViewController = listController;
@@ -153,7 +153,7 @@
         {
             EditViewController *editController =
             [[EditViewController alloc] initWithNibName:@"EditView"
-                                                bundle:nil];
+                                                 bundle:nil];
             
             editController.myPinBrowser = myPinBrowser;
             self.editViewController = editController;

@@ -55,7 +55,7 @@
     // Upon View Appear load webview with URL site
 -(void) viewDidAppear:(BOOL)animated{
     
-    NSLog(@"URL: %@", site);
+    NSLog(@"From Browser View - URL: %@", site);
     
     [webView loadRequest:[NSURLRequest requestWithURL:site]]; 
     
