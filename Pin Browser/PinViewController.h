@@ -1,10 +1,9 @@
-//
-//  PinViewController.h
-//  AHPinBrowser
-//
-//  Created by Andrew HoChoy on 11/21/11.
-//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
-//
+//  PROGRAMMER(S):  Andrew HoChoy
+//  PANTHERID:      1569034
+//  CLASS:          COP 4655
+//  INSTRUCTOR:     Steven Luis ECS 282
+//  ASSIGNMENT:     #5 Pin Browser
+//  DUE:            Thursday 11/10
 
 #import <UIKit/UIKit.h>
 #import "PinBrowser.h"

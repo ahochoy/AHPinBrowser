@@ -1,10 +1,9 @@
-//
-//  Pin_BrowserAppDelegate.h
-//  Pin Browser
-//
-//  Created by andrew s hochoy on 11/8/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
+//  PROGRAMMER(S):  Andrew HoChoy
+//  PANTHERID:      1569034
+//  CLASS:          COP 4655
+//  INSTRUCTOR:     Steven Luis ECS 282
+//  ASSIGNMENT:     #5 Pin Browser
+//  DUE:            Thursday 11/10
 
 #import <UIKit/UIKit.h>
 
